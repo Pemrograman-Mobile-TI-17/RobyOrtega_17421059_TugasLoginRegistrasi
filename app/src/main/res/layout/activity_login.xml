@@ -100,9 +100,12 @@
                 app:nb_radius="5dp"/>
 
             <Button
+                android:id="@+id/btnpindah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Belum punya akun ? Daftar disini"
+                android:onClick="pindah"
                 android:background="@null"
                 android:textAllCaps="false"/>
 
